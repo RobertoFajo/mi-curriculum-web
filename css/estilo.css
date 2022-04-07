@@ -1,0 +1,107 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Selector por etiqueta*/
+
+a:hover {
+    color: hotpink;
+    
+  }
+
+html {margin: 0.3em 1em;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {color: rgb(0, 0, 0); background: orange;}
+
+
+
+/*Selector por clase*/
+
+
+
+-btn-menu1{
+    width: 50px;
+}
+
+.centrado{
+    display:block;
+    margin:auto;
+    text-align: center;
+}
+
+
+.contacto {
+    
+    padding: 0.5em;
+    /*
+    margin: 0.3em 1em;
+    */
+    border: rgb(117, 117, 155) 0.5em solid;
+}
+
+
+
+.datos-personales {
+    
+    background: rgb(200, 200, 200);
+}
+
+
+.desc-titulo-puesto {
+    margin: 0em 7em;
+}
+
+.menu-experiencia {
+    display:block;
+    background-color: red;
+    min-width: 200px;
+}
+
+
+/*Selector por id*/
+#destacado{
+    color:black;
+    background: rgb(176, 176, 233);
+}
+
+#destacado:hover{
+    color:black;
+    background: rgb(119, 119, 250);
+}
+
+
+.empresa {
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.entre-fechas {
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.identado {
+    margin: 0em 7em;
+}
+
+.link-centrado{
+    display:block;
+    margin:auto;
+    text-align: center;
+
+}
+
+
+
+
+.titulo-puesto {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 700;
+}
